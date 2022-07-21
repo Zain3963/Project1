@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Poppins',sans-serif;
+    font-size: 16px;
+    line-height: 1.5px;
+    color: #333;
+    background-color: #fff;
+}
+
+header{
+    width: 100%;
+    height: 100%;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,1.5);
+}
+
+header.logo{
+    display: flex;
+}
+
+.logo h1{
+    display:inline-block;
+}
+
+.logo img{
+    width: 70px;
+    height: 70px;
+    margin-right: 10px;
+}
+
+.navigation{
+    display: flex;
+justify-content:flex-end;
+    text-align:justify;
+}
+
+.navigation a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 7px 10px;
+    color: blueviolet;
+}
+
+./*hero{
+    display: flex;
+    align-items: center;
+justify-content: space-around;
+}
+*/
+.info{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.info h1{
+font-size: 50px;
+font-weight: 600;
+color:#393939;
+margin-bottom: 20px;
+}
+
+.button1{
+    text-decoration: none;
+background-color: #393939;
+color: #fff;
+padding: 5px;
+border-radius: 5px;
+}
+
+.button2{
+    text-decoration: none;
+    background-color: hwb(280 24% 75%);
+    color: #fff;
+padding: 5px;
+border-radius: 5px
+}
+
+.hero img{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.info .card{
+    width: 300px;
+    height: 350px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.info .card .card-footer{
+    background-color: #333;
+    color: #fff;
+}
